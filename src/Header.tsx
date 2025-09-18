@@ -22,9 +22,6 @@ const Header: React.FC = () => {
       <Box mr={4}>
         <ColorModeSwitcher />
       </Box>
-      <Button variant="ghost" colorScheme="gray" onClick={handleLogout}>
-        <FaSignOutAlt style={{ marginRight: 8 }} />Logout
-      </Button>
     </Flex>
   );
 };
