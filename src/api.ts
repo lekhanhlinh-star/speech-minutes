@@ -1,4 +1,4 @@
-const BASE_URL = 'http://140.115.59.61:8003';
+const BASE_URL = 'https://140.115.59.61:8003';
 
 export async function prepareTask(fileName: string, fileLen: string, totalSegments: number) {
   const form = new FormData();
